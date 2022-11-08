@@ -1,0 +1,121 @@
+commit 1cd3cc66073f954173fd57a05ae902a614ae2dbf
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:49:58 2022 +0200
+
+    postettiin tiedosto ja muutettiin toisen nimeä
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 288d0959cee5ee26d6ff8481c03d3dcd1323ca13
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:47:43 2022 +0200
+
+    luotiin file2
+
+ tiedostoja/file2 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f83ae4915a8d9739925f60df76e83064f8839ecb
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:44:30 2022 +0200
+
+    luotiin hakemisto ja tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file3 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5d955c060e6448f44aced09eaf75fc288cd81943
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:40:22 2022 +0200
+
+    muokattiin tiedostoja
+
+ eka.txt    | 4 ++--
+ kolmas.txt | 3 ++-
+ 2 files changed, 4 insertions(+), 3 deletions(-)
+
+commit 7d4990c4ecf22f1ddc922cec14d4e270fa19a196
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:38:43 2022 +0200
+
+    muutettiin tiedoston nimi
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5a6e41db9b2c3d508833347eea9f2c343cdab44a
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:37:53 2022 +0200
+
+    poistettiin tiedosto
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit a6b15d09b410c59c63abd9c4135f623d301ff8dd
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:33:29 2022 +0200
+
+    muokattiin tiedostoa
+
+ tiedosto.txt | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 0e5ace78744031b288cab3d9143bb9684c9c7af0
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 11:32:24 2022 +0200
+
+    Lisättiin tekstiä tiedostoon
+
+ tiedosto.txt | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit 6c4b69eda12c9c8d81a7e5554a9df968794d6042
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 10:22:37 2022 +0200
+
+    lisättiin hakemisto sekä tiedostoä
+
+ stuff/jokuvain | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 830c753625834daf5a091b00b17a15cc8308f003
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 10:21:45 2022 +0200
+
+    muutettiin tiedostojen sisältöä
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit c59004bc616de07ed3e3d37de2c171a0d1625880
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 10:20:47 2022 +0200
+
+    kolmas.txt
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 6e257c28985c7b97aa7743a3762e77e6fd675cf5
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 10:19:33 2022 +0200
+
+    tiedosto.txt sisältö muuttui sekä lisättiin tiedosto
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 6779e26b8d24f8bc9ea187c858bc5758d4a7303e
+Author: Veeti Enckelman <veeti.oliver@gmail.com>
+Date:   Tue Nov 8 10:17:58 2022 +0200
+
+    tiedosto.txt
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
