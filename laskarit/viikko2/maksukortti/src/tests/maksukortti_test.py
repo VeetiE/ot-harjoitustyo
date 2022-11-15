@@ -1,3 +1,5 @@
+from maksukortti import Maksukortti
+import unittest
 class TestMaksukortti(unittest.TestCase):
     def setUp(self):
         self.kortti = Maksukortti(10)
@@ -42,4 +44,4 @@ class TestMaksukortti(unittest.TestCase):
     	self.kortti.syo_edullisesti()
     	self.kortti.syo_maukkaasti()
     	self.kortti.lataa_rahaa(0.5)
-    	self.assertEqual(str(self.kortti), "Kortilla on rahaa 4 euroa")
+    	self.assertEqual(str(self.kortti), "Kortilla on rahaa 4.0 euroa")
