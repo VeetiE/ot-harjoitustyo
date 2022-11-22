@@ -30,7 +30,7 @@ class TestMaksukortti(unittest.TestCase):
         
     def test_kortille_voi_ladata_rahaa(self):
     	self.kortti.lataa_rahaa(25)
-    	self.assertEqual(str(self.kortti), "Kortilla on rahaa 35 euroa")
+        self.assertEqual(str(self.kortti), "Kortilla on rahaa 35 euroa")
     
     def test_kortin_saldo_ei_ylita_maksimiarvoa(self):
     	self.kortti.lataa_rahaa(200)
