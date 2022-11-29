@@ -1,5 +1,6 @@
 from tkinter import Tk
 from UI.UI import UI
+from UI.LoginView import LoginView
 
 
 def main():

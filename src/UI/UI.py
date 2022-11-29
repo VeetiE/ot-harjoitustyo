@@ -7,7 +7,6 @@ class UI:
         self.root = root
     
     def start(self):
-        self._hide_current_view()
         self._current_view = LoginView(self.root)
 
 window = Tk()
