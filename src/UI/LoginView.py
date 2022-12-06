@@ -7,6 +7,7 @@ class LoginView:
         self._frame = None
         self._initialize()
 
+    #Creates login view
     def _initialize(self):
         label = ttk.Label(master=self._root, text="Login")
         username_label = ttk.Label(master=self._root, text="Username")
@@ -32,12 +33,14 @@ class LoginView:
         self._root.grid_columnconfigure(2, weight=2)
         self._root.grid_columnconfigure(2, weight=2, minsize=400)
 
+    #Handles login button click
     def _handle_button(self):
         username_entry_value = self.username_entry.get()
         password_entry_value = self.password_entry.get()
         print(f"Username is: {username_entry_value}")
         print(f"Password is: {password_entry_value}")
 
+    #Handles create user button click
     def _handle_createUser(self):
         user = input("New User")
         pw = input("Password")

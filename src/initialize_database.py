@@ -17,31 +17,33 @@ def drop_tables(connection):
 
 
 def create_tables(connection):
-    cursor=connection.cursor()
+    cursor = connection.cursor()
 
     cursor.execute("""
         CREATE TABLE users (
             id INTEGER PRIMARY KEY,
-            username TEXT,
-            password TEXT
+            username VARCHAR(255) NOT NULL,
+            password VARCHAR(255) NOT NULL
         );  
     """)
     connection.commit()
 
     cursor.execute("""
         CREATE TABLE budgets (
-            t_id INTEGER 
-            REFERENCES reference_types,
-            name TEXT,
-            amount INTEGER,
+            id INTEGER PRIMARY KEY,
+            user_id INTEGER NOT NULL,
+            name VARCHAR(255) NOT NULL,
+            amount DECIMAL(10, 2) NOT NULL,
             beginning_date DATE,
             ending_date DATE,
-            current_date DATE
+            current_date DATE,
+            FOREIGN KEY (user_id) REFERENCES users(id)
         );
     """)
     connection.commit()
 
 
+'''self, name, user, amount, beginning_date, ending_date, current_date'''
 
 
 def initialize_database():

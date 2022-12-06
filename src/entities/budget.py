@@ -6,3 +6,4 @@ class Budget:
         self.beginning_date = beginning_date
         self.ending_date = ending_date
         self.current_date = current_date
+
